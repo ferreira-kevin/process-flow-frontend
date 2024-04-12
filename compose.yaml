@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      context: ./process-flow-frontend
+    container_name: frontend
+    ports:
+      - "80:80"
